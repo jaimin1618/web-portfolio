@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import NameImage from '../assets/images/name.png';
+
 
 export const Header = () => {
 	const [showMenu, setShowMenu] = useState('md:hidden');
@@ -11,7 +13,7 @@ export const Header = () => {
 			<div className='flex justify-between w-full'>
 				<div className='w-1/4'>
 					<Link to={"/"}>
-						<img src="/images/1.png" alt="logo" className='bg-auto hover:p-4 transition duration-300 delay-150 hover:-rotate-3' />
+						<img src={NameImage} alt="logo" className='bg-auto hover:p-4 transition duration-300 delay-150 hover:-rotate-3' />
 					</Link>
 				</div>
 		
