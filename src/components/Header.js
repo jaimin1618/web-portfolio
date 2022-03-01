@@ -12,7 +12,7 @@ export const Header = () => {
 		<div className={`fixed top-0 right-0 left-0 z-50 nav bg-neutral-900 text-white justify-between items-center p-2 shadow-lg ${showMenu==='md:hidden'?'flex':'flex-col'}`}>
 			<div className='flex justify-between w-full'>
 				<div className='w-1/4'>
-					<Link to={"/"}>
+					<Link to={"/web-portfolio"}>
 						<img src={NameImage} alt="logo" className='bg-auto hover:p-4 transition duration-300 delay-150 hover:-rotate-3' />
 					</Link>
 				</div>
@@ -38,9 +38,9 @@ export const Header = () => {
 			</div>
 
 			<div className={`md:hidden flex`}>
-				<li key="home"><Link to="/">Home</Link></li>
-				<li key="projects"><Link to="/projects">Projects</Link></li>
-				<li key="contact"><Link to="/contact">Contact</Link></li>
+				<li key="home"><Link to="/web-portfolio">Home</Link></li>
+				<li key="projects"><Link to="/web-portfolio/projects">Projects</Link></li>
+				<li key="contact"><Link to="/web-portfolio/contact">Contact</Link></li>
 			</div>
 
 			<div className={`flex-col lg:hidden items-center 2xl:hidden xl:hidden ${showMenu}`}>

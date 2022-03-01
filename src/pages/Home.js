@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // compo
 import { Banner } from '../components/Banner';
@@ -7,6 +7,7 @@ import { TechStack } from '../components/TechStack';
 import { About } from '../components/About';
 
 export const Home = () => {
+
 	return (
 		<React.Fragment>
 			<Banner />
