@@ -23,8 +23,6 @@ export const Contact = () => {
 					<button type="" className='bg-blue-500 p-2 m-1  rounded-md text-white w-full'>Submit</button>
 				</div>		
 			</div>
- 
-
 
 		</div>
 	);
