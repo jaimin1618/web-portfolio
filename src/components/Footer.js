@@ -18,8 +18,8 @@ export const Footer = () => {
 			<div className='md:w-full w-1/2'>
 				<p className='text-white md:text-xs'>You're currently looking at portfolio website of,</p>
 				<div className="flex text-white w-full justify-between my-3">
-				<a target="_blank" href="https://github.com/JAIMIN-CHOKHAWALA"><FaGithub size={35} className='hover:cursor-pointer' /></a>
-				<a target="_blank" href="https://www.linkedin.com/in/jaimin-chokhawala/"><FaLinkedin size={35} className='hover:cursor-pointer' /></a>
+				<a target="_blank" href="https://github.com/jaimin1618"><FaGithub size={35} className='hover:cursor-pointer' /></a>
+				<a target="_blank" href="https://www.linkedin.com/in/jaimin1618/"><FaLinkedin size={35} className='hover:cursor-pointer' /></a>
 				<a target="_blank" href="mailto:jaimin.chokhawala@gmail.com"><FaMailBulk size={35} className='hover:cursor-pointer' /></a>
 				</div>
 				<p className='mt-1'>Jaimin Chokhawala</p>
